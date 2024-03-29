@@ -12,6 +12,7 @@ class ClockConverter {
 		int numHours = 0;
 		int numMinutes = 0;
 		int converted = 0;
+		int leftOverMinutes = 0;
 		
 		while (stop != 's')
 		{
@@ -22,8 +23,12 @@ class ClockConverter {
 		numMinutes = in.nextInt();
 		
 		converted = minutesToHours(numMinutes) + numHours;
+		leftOverMinutes = minutesLeftOver(numMinutes);
+
+		System.out.println();
 		
-		System.out.println("Your estimated total hours are : " + converted);
+		
+		System.out.println("Total time : " + converted + ":" + leftOverMinutes);
 
 		System.out.print("Stop program? Enter s for stop : ");
 		stop = in.next().charAt(0);
@@ -35,5 +40,11 @@ class ClockConverter {
 	{
 		int hours = minutes / 60;
 		return hours;
+	}
+	
+	public static int minutesLeftOver(int minutes)
+	{
+		int leftover = minutes % 60;
+		return leftover;
 	}
 }
