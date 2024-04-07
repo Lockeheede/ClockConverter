@@ -28,7 +28,7 @@ class ClockConverter {
 		System.out.println();
 		
 		
-		System.out.println("Total time : " + converted + ":" + leftOverMinutes);
+		System.out.printf("Total time : %d:%02d%n", converted, leftOverMinutes);
 
 		System.out.print("Stop program? Enter s for stop : ");
 		stop = in.next().charAt(0);
