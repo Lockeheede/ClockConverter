@@ -11,4 +11,6 @@
  But I don't have to convert them with this program. 
  I can also do something like 2hr and 90m and it turns it into 3:30 for example
  
- 
+ # Update 04062024
+ Added printf formating to the minutesLeftOver variable
+ Now the clock will do 14:04 instead of 14:4 if you were to do something like 12 hours and 124 minutes
