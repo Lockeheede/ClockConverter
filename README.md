@@ -14,3 +14,8 @@
  # Update 04062024
  Added printf formating to the minutesLeftOver variable
  Now the clock will do 14:04 instead of 14:4 if you were to do something like 12 hours and 124 minutes
+
+ # Update 05012024
+ Added seconds feature (Can replace the secondsToMinutes and minutesToHour functions with a single function that uses both of them)
+ Also made a while loop so you can put in as many hours, minutes, and seconds as you like without having to add them up in your head. 
+ 
