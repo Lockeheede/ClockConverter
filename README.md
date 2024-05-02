@@ -18,4 +18,9 @@
  # Update 05012024
  Added seconds feature (Can replace the secondsToMinutes and minutesToHour functions with a single function that uses both of them)
  Also made a while loop so you can put in as many hours, minutes, and seconds as you like without having to add them up in your head. 
+ There is also now a GUI version with a hopeful exe version coming later on
+
+ # Remember
+ To run the program, open your terminal in either folder and type 'java <filename>' ie 'java ClockConverterGUI' 
+ 
  
